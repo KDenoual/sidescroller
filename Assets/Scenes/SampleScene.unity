@@ -235,7 +235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 267285425}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: damageZone
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -955,6 +955,7 @@ GameObject:
   - component: {fileID: 698697102}
   - component: {fileID: 698697101}
   - component: {fileID: 698697100}
+  - component: {fileID: 698697106}
   m_Layer: 6
   m_Name: enemy (1)
   m_TagString: Untagged
@@ -1144,6 +1145,25 @@ Transform:
   - {fileID: 1298455895}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &698697106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698697099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbcbf7afdc1ed4a930e8d596622715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::enemyDegat
+  damage: 1
+  attackOrigin: {fileID: 1298455895}
+  attackRadius: 0.5
+  enemyMasck:
+    serializedVersion: 2
+    m_Bits: 128
+  cooldawnTime: 0.5
 --- !u!1 &1298455894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1298455895}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: damageZone
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1410,6 +1430,7 @@ GameObject:
   - component: {fileID: 1439226565}
   - component: {fileID: 1439226564}
   - component: {fileID: 1439226567}
+  - component: {fileID: 1439226568}
   m_Layer: 6
   m_Name: enemy
   m_TagString: Untagged
@@ -1599,6 +1620,25 @@ MonoBehaviour:
   jumpForce: 20
   damage: 1
   lastJump: 1
+--- !u!114 &1439226568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439226559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbcbf7afdc1ed4a930e8d596622715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::enemyDegat
+  damage: 1
+  attackOrigin: {fileID: 267285425}
+  attackRadius: 0.5
+  enemyMasck:
+    serializedVersion: 2
+    m_Bits: 128
+  cooldawnTime: 0.5
 --- !u!1 &1710809540
 GameObject:
   m_ObjectHideFlags: 0
