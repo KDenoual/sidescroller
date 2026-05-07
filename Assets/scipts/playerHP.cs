@@ -1,11 +1,13 @@
 using UnityEngine;
-
+using UnityEngine.UIElements;
+ 
 public class playerHP : MonoBehaviour
 {
     public int hpMax;
     public int hp;
+    public Transform checkpoint;
     public PlayerMovementPlatformer dash;
-
+ 
     void Start()
     {
         hp = hpMax;
@@ -15,10 +17,11 @@ public class playerHP : MonoBehaviour
         if (dash.isDashing != true)
         {
             hp -= damage;
-
+ 
             if (hp <= 0)
             {
-                Destroy(gameObject);
+                transform.position = checkpoint.position;
+                hp = hpMax;
             }
         }
     }
