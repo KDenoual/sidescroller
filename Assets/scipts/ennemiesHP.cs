@@ -8,6 +8,8 @@ public class ennemiesHP : MonoBehaviour
 
     public attaque playerAttaque;
 
+    public Animator animator;
+
     void Start()
     {
        hp = hpMax;
@@ -18,8 +20,11 @@ public class ennemiesHP : MonoBehaviour
 
         if (hp <= 0)
         {
+            animator.SetBool("isDead", true);
+        
             Destroy(gameObject);
             playerAttaque.attackDamage += giveXP;
         }
+        else animator.SetBool("isDead", false);
     }
 }

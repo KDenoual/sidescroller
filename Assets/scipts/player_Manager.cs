@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerMovementPlatformer : MonoBehaviour
 {
+   
+    public Transform maaTransform;
     public Rigidbody2D rb;
     public float speed = 1;
     public float jumpforce = 1;
@@ -12,13 +14,19 @@ public class PlayerMovementPlatformer : MonoBehaviour
     public float DashDuration = 1;
     public float DashCooldown = 1;
 
+    public bool flipX;
+
     private Vector2 dashDirection;
     public bool isDashing = false;
     private float dashTimeLeft;
     private float lastDashTime;
 
+    [SerializeField]private SpriteRenderer spriteRenderer;
+    [SerializeField]private Animator animator;
+
     void Update()
     {
+        bool isRuning;
         var hDirection = 0f;
         var vDirection = 0f;
         if(isGround == true || Jump == true)
@@ -40,13 +48,45 @@ public class PlayerMovementPlatformer : MonoBehaviour
             hDirection += 1;
         }
 
-        transform.localScale = new Vector3(Mathf.Sign(hDirection),transform.localScale.y,1);
+
+        if(rb.linearVelocityX>0 || rb.linearVelocityX<0)
+        {
+           isRuning = true;
+        }
+        else isRuning = false;
+
+        animator.SetBool("isRuning",isRuning);
+
+        if (rb.linearVelocityX > 2)
+        {
+            flipX = true;
+        }
+
+        else if (rb.linearVelocityX < -2)
+        {
+            flipX = false;
+        }
+    
+        if (flipX)
+        {
+            maaTransform.localScale = new Vector3(x: 1, maaTransform.localScale.y, maaTransform.localScale.z);
+        }
+
+        else 
+        {
+            maaTransform.localScale = new Vector3(x: -1, maaTransform.localScale.y, maaTransform.localScale.z);
+        }
+    
+
+
+        //transform.localScale = new Vector3(Mathf.Sign(hDirection),transform.localScale.y,1);
 
         if (Time.time >= lastDashTime + DashCooldown && !isDashing)
         {
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 StartDash();
+                animator.SetTrigger("isDashing");
             }
         }
 
