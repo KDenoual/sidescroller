@@ -20,11 +20,8 @@ public class ennemiesHP : MonoBehaviour
 
         if (hp <= 0)
         {
-            animator.SetBool("isDead", true);
-        
             Destroy(gameObject);
             playerAttaque.attackDamage += giveXP;
         }
-        else animator.SetBool("isDead", false);
     }
 }
