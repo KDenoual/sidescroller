@@ -91,7 +91,8 @@ public class PlayerMovementPlatformer : MonoBehaviour
         }
 
 
-        rb.linearVelocity = new Vector2(hDirection * speed, rb.linearVelocityY+vDirection);
+
+            rb.linearVelocity = new Vector2(hDirection * speed, rb.linearVelocityY+vDirection);
     }
     void FixedUpdate()
     {

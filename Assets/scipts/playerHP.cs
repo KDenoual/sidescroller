@@ -8,7 +8,11 @@ public class playerHP : MonoBehaviour
     public int hp;
     public Transform checkpoint;
     public PlayerMovementPlatformer dash;
- 
+    public float cooldownTime = 1;
+
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Animator animator;
+
     void Start()
     {
         hp = hpMax;
@@ -21,6 +25,8 @@ public class playerHP : MonoBehaviour
  
             if (hp <= 0)
             {
+                animator.SetTrigger("isDead");
+                cooldownTime = 1;
                 transform.position = checkpoint.position;
                 hp = hpMax;
             }
