@@ -86,8 +86,11 @@ public class PlayerMovementPlatformer : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 StartDash();
-                animator.SetTrigger("isDashing");
             }
+        }
+        if (isDashing)
+        {
+            animator.SetTrigger("isDashing");
         }
 
 
