@@ -34,12 +34,12 @@ public class enemyMove : MonoBehaviour
                 GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             }
         }
-         if (rb.linearVelocityX > 2)
+         if (rb.linearVelocityX > 1)
         {
             flipX = true;
         }
 
-        else if (rb.linearVelocityX < -2)
+        else if (rb.linearVelocityX < -1)
         {
             flipX = false;
         }
