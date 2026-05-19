@@ -5,11 +5,14 @@ using UnityEngine;
 public class enemyMove : MonoBehaviour
 {
     public GameObject player;
+    public Transform maaTransform;
+    public Rigidbody2D rb;
     public float aggroRange;
     public float speed;
     public float jumpCooldown;
     public float jumpForce;
     public int damage;
+    public bool flipX;
 
     public float lastJump;
 
@@ -30,6 +33,25 @@ public class enemyMove : MonoBehaviour
                 lastJump = Time.time;
                 GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             }
+        }
+         if (rb.linearVelocityX > 2)
+        {
+            flipX = true;
+        }
+
+        else if (rb.linearVelocityX < -2)
+        {
+            flipX = false;
+        }
+    
+        if (flipX)
+        {
+            maaTransform.localScale = new Vector3(x: 1, maaTransform.localScale.y, maaTransform.localScale.z);
+        }
+
+        else 
+        {
+            maaTransform.localScale = new Vector3(x: -1, maaTransform.localScale.y, maaTransform.localScale.z);
         }
     }
 

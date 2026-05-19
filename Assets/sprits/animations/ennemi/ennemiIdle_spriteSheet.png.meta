@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 4a6373f40b27f174db7feb67979e63b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3548771042344013871
+    second: ennemiIdle_spriteSheet_0
+  - first:
+      213: -7945875369713603974
+    second: ennemiIdle_spriteSheet_1
+  - first:
+      213: -3570535722986343993
+    second: ennemiIdle_spriteSheet_2
+  - first:
+      213: -5222799007591142582
+    second: ennemiIdle_spriteSheet_3
+  - first:
+      213: -2530630613701841444
+    second: ennemiIdle_spriteSheet_4
+  - first:
+      213: -1917309376470830227
+    second: ennemiIdle_spriteSheet_5
+  - first:
+      213: 5053628492082683513
+    second: ennemiIdle_spriteSheet_6
+  - first:
+      213: 5339855945701569623
+    second: ennemiIdle_spriteSheet_7
+  - first:
+      213: 115232482161755930
+    second: ennemiIdle_spriteSheet_8
+  - first:
+      213: -6114671407797618168
+    second: ennemiIdle_spriteSheet_9
+  - first:
+      213: -1438617561293347542
+    second: ennemiIdle_spriteSheet_10
+  - first:
+      213: 2417881190762246067
+    second: ennemiIdle_spriteSheet_11
+  - first:
+      213: -5286219964192632000
+    second: ennemiIdle_spriteSheet_12
+  - first:
+      213: -5278905362088425722
+    second: ennemiIdle_spriteSheet_13
+  - first:
+      213: -3437395752318259961
+    second: ennemiIdle_spriteSheet_14
+  - first:
+      213: 7722812309760436341
+    second: ennemiIdle_spriteSheet_15
+  - first:
+      213: -6250306042726951170
+    second: ennemiIdle_spriteSheet_16
+  - first:
+      213: 8073480614972478968
+    second: ennemiIdle_spriteSheet_17
+  - first:
+      213: -4782484062259839589
+    second: ennemiIdle_spriteSheet_18
+  - first:
+      213: -3795494927259979625
+    second: ennemiIdle_spriteSheet_19
+  - first:
+      213: 2414674437085892954
+    second: ennemiIdle_spriteSheet_20
+  - first:
+      213: 6541996699976920722
+    second: ennemiIdle_spriteSheet_21
+  - first:
+      213: 5695380249369131534
+    second: ennemiIdle_spriteSheet_22
+  - first:
+      213: -3581078174857860989
+    second: ennemiIdle_spriteSheet_23
+  - first:
+      213: 117062891700153278
+    second: ennemiIdle_spriteSheet_24
+  - first:
+      213: 1933119214231954921
+    second: ennemiIdle_spriteSheet_25
+  - first:
+      213: 1775512056617124124
+    second: ennemiIdle_spriteSheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1857
+        width: 139
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df64e70a8b30cec0800000000000000
+      internalID: -3548771042344013871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1857
+        width: 140
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ae1b643749ab190800000000000000
+      internalID: -7945875369713603974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1858
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c17e8d6da8e27ec0800000000000000
+      internalID: -3570535722986343993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1858
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b644369f3e487b0800000000000000
+      internalID: -5222799007591142582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1858
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda29c5dd461ecd0800000000000000
+      internalID: -2530630613701841444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1854
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d633eeac7495465e0800000000000000
+      internalID: -1917309376470830227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1854
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e91699658122640800000000000000
+      internalID: 5053628492082683513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1854
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754bc4bd0bafa1a40800000000000000
+      internalID: 5339855945701569623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1854
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1786ddf453699100800000000000000
+      internalID: 115232482161755930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1855
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a3cf360c2542ba0800000000000000
+      internalID: -6114671407797618168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1712
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25a87b33f0090ce0800000000000000
+      internalID: -1438617561293347542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1712
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf6b7ce12a0e8120800000000000000
+      internalID: 2417881190762246067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1712
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04358bd33f293a6b0800000000000000
+      internalID: -5286219964192632000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1711
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60780d1ca8f8db6b0800000000000000
+      internalID: -5278905362088425722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1710
+        width: 140
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d22ae76caeb40d0800000000000000
+      internalID: -3437395752318259961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1710
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578e846e0e0fc2b60800000000000000
+      internalID: 7722812309760436341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1710
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef658c905c37249a0800000000000000
+      internalID: -6250306042726951170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1710
+        width: 140
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5df6c18d3ca0070800000000000000
+      internalID: 8073480614972478968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1710
+        width: 140
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9df805851431adb0800000000000000
+      internalID: -4782484062259839589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1706
+        width: 139
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7903fd91971b35bc0800000000000000
+      internalID: -3795494927259979625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1562
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5198b66b95a28120800000000000000
+      internalID: 2414674437085892954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1562
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ee6ef6657d9ca50800000000000000
+      internalID: 6541996699976920722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1563
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a3c60592e0a0f40800000000000000
+      internalID: 5695380249369131534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1561
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38861b29f547d4ec0800000000000000
+      internalID: -3581078174857860989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1559
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbea2c6414ef9100800000000000000
+      internalID: 117062891700153278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1563
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e527c8eea1d3da10800000000000000
+      internalID: 1933119214231954921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemiIdle_spriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1559
+        width: 133
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c114615fec2e3a810800000000000000
+      internalID: 1775512056617124124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ennemiIdle_spriteSheet_0: -3548771042344013871
+      ennemiIdle_spriteSheet_1: -7945875369713603974
+      ennemiIdle_spriteSheet_10: -1438617561293347542
+      ennemiIdle_spriteSheet_11: 2417881190762246067
+      ennemiIdle_spriteSheet_12: -5286219964192632000
+      ennemiIdle_spriteSheet_13: -5278905362088425722
+      ennemiIdle_spriteSheet_14: -3437395752318259961
+      ennemiIdle_spriteSheet_15: 7722812309760436341
+      ennemiIdle_spriteSheet_16: -6250306042726951170
+      ennemiIdle_spriteSheet_17: 8073480614972478968
+      ennemiIdle_spriteSheet_18: -4782484062259839589
+      ennemiIdle_spriteSheet_19: -3795494927259979625
+      ennemiIdle_spriteSheet_2: -3570535722986343993
+      ennemiIdle_spriteSheet_20: 2414674437085892954
+      ennemiIdle_spriteSheet_21: 6541996699976920722
+      ennemiIdle_spriteSheet_22: 5695380249369131534
+      ennemiIdle_spriteSheet_23: -3581078174857860989
+      ennemiIdle_spriteSheet_24: 117062891700153278
+      ennemiIdle_spriteSheet_25: 1933119214231954921
+      ennemiIdle_spriteSheet_26: 1775512056617124124
+      ennemiIdle_spriteSheet_3: -5222799007591142582
+      ennemiIdle_spriteSheet_4: -2530630613701841444
+      ennemiIdle_spriteSheet_5: -1917309376470830227
+      ennemiIdle_spriteSheet_6: 5053628492082683513
+      ennemiIdle_spriteSheet_7: 5339855945701569623
+      ennemiIdle_spriteSheet_8: 115232482161755930
+      ennemiIdle_spriteSheet_9: -6114671407797618168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
