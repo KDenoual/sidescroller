@@ -93,7 +93,10 @@ public class PlayerMovementPlatformer : MonoBehaviour
             animator.SetTrigger("isDashing");
         }
 
-
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            animator.SetTrigger("isFihting");
+        }
 
             rb.linearVelocity = new Vector2(hDirection * speed, rb.linearVelocityY+vDirection);
     }

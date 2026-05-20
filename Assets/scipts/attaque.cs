@@ -17,6 +17,7 @@ public class attaque : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
+
                 Collider2D[] enemiesInRange = Physics2D.OverlapCircleAll(attackOrigin.position, attackRadius, enemyMasck);
                 foreach (var enemy in enemiesInRange)
                 {
